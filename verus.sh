@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install screen -y
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 tar xf hellminer_cpu_linux.tar.gz
-./hellminer -c $POOL -u $WALLET.$WORKER -p $DIFF --cpu 2
+./hellminer -c $POOL -u $WALLET.$WORKER -p $DIFF --cpu 36
 while [ 1 ]; do
 sleep 3
 done
